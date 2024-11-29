@@ -2,20 +2,20 @@
 
 ## Introduction
 
-Task tracker is a CLI tool that helps you to keep track of your tasks. You can add, remove, list and mark tasks as done. The tasks are stored in a file in the user's home directory. [source](https://roadmap.sh/projects/task-tracker)
+Task tracker is a CLI tool that helps you to keep track of your tasks. You can add, remove, list and mark tasks as done. The tasks are stored in a JSON file in the user's home directory. [project source](https://roadmap.sh/projects/task-tracker)
 
 Made in a couple of minutes using Python, with the help of `os`, `sys` and `datetime` modules.
 
 ## Usage
 
-```bash
-$ python3 todo.py add "Buy milk"
-$ python3 todo.py add "Buy eggs"
-$ python3 todo.py list
-$ python3 todo.py mark-done 1
-$ python3 todo.py list done
-$ python3 todo.py delete 1
-```
+Move to the project directory and run any command listed down below.
+
+> Example:
+>
+>    ```bash
+>    $ python3 todo.py add "Buy milk"
+>    ```
+
 ### Commands
 
 - `add`: Add a new task
